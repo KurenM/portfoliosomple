@@ -150,3 +150,82 @@ margin-top: 15px;
   font-size: 15px;
   margin: 50px 0 20px;
 }
+
+/*
+*タブレット用のスタイルシート
+*/
+/*@media screen and (max-width:767px) {
+
+}*/
+
+/*
+*スマホ用のスタイルシート
+*/
+@media screen and (max-width:767px) {
+  .body{
+    min-width: 100%;  
+  }
+  /*
+  *hedderのスタイルシート
+  */
+.block-header{
+  padding: 0 10px 10px;
+  box-shadow: 0 8px 8px -5px rgb(204,204,204,0.3);
+}
+
+.block-header a{
+  font-size: 31px;
+}
+
+/*
+*mainのスタイルシート
+*/
+
+.block-main{
+  margin: 10px 0;
+}
+
+/*
+*profireのスタイルシート
+*/
+.box-profile{
+  padding: 0 10px;
+}
+.item-rist b{
+  font-size: 18px;
+}
+  .item-rist{
+    max-width: 100%;
+  }
+  .icon-rist{
+    max-width: 100%;
+  }
+.icon-rist li{
+  margin-right: 25px;
+}
+
+/*
+*worksのスタイルシート
+*/
+.box-works{
+  margin: 60px 0 0;
+  padding: 0 10px;
+}
+
+  .works-list{
+    max-width: 100%;
+  }
+  .works-list li{
+    max-width: 100%;
+    float: none;
+    margin: :0;
+    margin-bottom: 30px;
+  }
+  .works-list h3{
+    font-size: 28px;
+    margin: 5px 0;
+  }
+  .works-list span{
+    font-size: 14px;
+  }
+}
